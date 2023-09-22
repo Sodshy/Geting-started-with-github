@@ -1,1 +1,21 @@
 
+// 10.Multiplication Table
+
+import java.util.Scanner;
+
+public class test {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        int number = scan.nextInt();
+        int counter = 1;
+        while (counter <= 10) {
+            int result = number * counter;
+            System.out.printf("%d X %d = %d\n", number, counter ,result);
+            counter += 1;
+        }
+
+    }
+}
+
