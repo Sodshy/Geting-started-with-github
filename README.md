@@ -1,2 +1,2 @@
-# Geting-started-with-github
+# Geting started with github
 Learning how github works
